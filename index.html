@@ -1867,8 +1867,6 @@
         </div>
       </div>
 
-      <p class="greenlight-done" role="status">Got it. Deposit invoice is on its way.<span>Charlie</span></p>
-
       <div class="agreement-signature">
         <div class="agreement-signature-photo">CT</div>
         <div>
@@ -1928,7 +1926,6 @@
     <div class="closing-reel-rule"></div>
     <div class="closing-reel-sub">Charlie Tillett · Tillett Film</div>
   </div>
-  <button class="closing-reel-close" id="closingReelClose" aria-label="Close">Close</button>
 </div>
 
 <script>
@@ -2083,9 +2080,6 @@
     closingReel.classList.add('visible');
     setTimeout(() => closingReel.classList.add('show-text'), 1000);
   }
-  document.getElementById('closingReelClose').addEventListener('click', () => {
-    closingReel.classList.remove('visible', 'show-text');
-  });
 
   // Greenlight
   // Paste the new Formspree endpoint id here before sending this link to Steve.
